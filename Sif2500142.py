@@ -3,8 +3,12 @@ name = input("")
 
 print ("Enter The Total classes held:")
 classes = float(input(""))
+
 print ("Enter The Total Classes You Attend:")
 attend_classes = float(input(""))
+
+print ("Enter Student's Course")
+course = input("")
 
 a_persentage = ((attend_classes/classes)*100)
 print("attendance percentage",a_persentage)
